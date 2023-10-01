@@ -6,7 +6,7 @@ public class Turn {
 
     private static final int NUM_PLAYERS = 2;
     private int currentPlayer;
-    private Board board;
+    private final Board board;
 
     private final Player[] players;
 
@@ -22,7 +22,6 @@ public class Turn {
                 .forEach(i -> players[i] = new Player(Colour.values()[i % Colour.values().length], this.board));
     }
 
-
     public void changePlayer() {
         this.currentPlayer= (this.currentPlayer + 1) % NUM_PLAYERS;
     }
@@ -31,7 +30,4 @@ public class Turn {
         this.players[currentPlayer].dropToken(column);
     }
 
-    public Player getActivePlayer() {
-        return players[currentPlayer];
-    }
 }

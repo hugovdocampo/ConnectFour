@@ -4,25 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00f86aba-a54a-462c-8894-b528fa12057f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/Game/View/ColourView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/View/ConnectFourView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/View/PlayView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/View/PlayerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/View/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="00f86aba-a54a-462c-8894-b528fa12057f" name="Changes" comment="version semifinal">
+      <change afterPath="$PROJECT_DIR$/.idea/ConnectFour.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a98f4ccdf2af88340726fce0001a2a76670f777" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b2d8c640be8209bec5424cbc6b0002ab5628b07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cedfbeed9a590321cb00f541393c3b98aac03de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23d4f5c519ef751024ec913d3cc0b5426fdb3987" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44ee71a652131f574ab1209568a3fcaf356a025e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d1f290de343440a59b54e1f7722ac000215ade9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5337dec1dd57afad4966019fee7fe7cb3ccdb4a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a73e10333f5f755542bf65ebf0d2238fbb4081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f57fea3cd2b39c4332dd2ba184203b6613b795a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91916967ef2e798dd3de4b021aa9359444cecc2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b4bad8d68c6cd6d396e240917d5cc22c4f0c995" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a298192cf4948564dcd19c26241a6208ec553413" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a88bd01f8857de35aa45996537579345adab2fce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8ed36193bc92686666eda495aebdc2eeea8b8ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad5774c5beb051f7d685adc9fb381c15afb2253c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4095216ce6973f65a7577c7783d5bd68590875e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5ee485d9f0d389e4c622f3272f30788a1969d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9c2e42fc4176b13ee107eac885187db7d222605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c7b5a6e35063ea9fee6198527f376aa4cb9ae2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5e0b479a20902c94d0d7344a2e7ecf60ec0b2af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe24140bc7dcdf67bf2bbbf0f42a5c1234e514be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a98f4ccdf2af88340726fce0001a2a76670f777" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b2d8c640be8209bec5424cbc6b0002ab5628b07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1cedfbeed9a590321cb00f541393c3b98aac03de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/23d4f5c519ef751024ec913d3cc0b5426fdb3987" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/44ee71a652131f574ab1209568a3fcaf356a025e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4d1f290de343440a59b54e1f7722ac000215ade9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/3/5337dec1dd57afad4966019fee7fe7cb3ccdb4a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/9/69a73e10333f5f755542bf65ebf0d2238fbb4081" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f57fea3cd2b39c4332dd2ba184203b6613b795a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/91916967ef2e798dd3de4b021aa9359444cecc2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b4bad8d68c6cd6d396e240917d5cc22c4f0c995" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/2/a298192cf4948564dcd19c26241a6208ec553413" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a88bd01f8857de35aa45996537579345adab2fce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a8ed36193bc92686666eda495aebdc2eeea8b8ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/ad5774c5beb051f7d685adc9fb381c15afb2253c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4095216ce6973f65a7577c7783d5bd68590875e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/5/b5ee485d9f0d389e4c622f3272f30788a1969d5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b9c2e42fc4176b13ee107eac885187db7d222605" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/8/d8c7b5a6e35063ea9fee6198527f376aa4cb9ae2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e5e0b479a20902c94d0d7344a2e7ecf60ec0b2af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/fe24140bc7dcdf67bf2bbbf0f42a5c1234e514be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/ConnectFour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Colour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Coordinate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/Model/Turn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/BoardView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/ColourView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/ConnectFourView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/Error.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/MessageView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/PlayView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/PlayerView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/ResumeView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/StartView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConnectFour/View/YesNoDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/ConnectFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/ConnectFour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Model/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Model/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Model/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Model/Turn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/BoardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/View/BoardView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/View/Error.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/View/MessageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/View/MessageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/ResumeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/View/ResumeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/StartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/View/StartView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/View/YesNoDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Game/View/YesNoDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +162,7 @@
       <workItem from="1694696807650" duration="1589000" />
       <workItem from="1696068963368" duration="3000" />
       <workItem from="1696154918505" duration="12020000" />
-      <workItem from="1696172543677" duration="7979000" />
+      <workItem from="1696172543677" duration="10574000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -125,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696162109905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version semifinal">
+      <option name="closed" value="true" />
+      <created>1696180729367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696180729367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="version semifinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="version semifinal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,7 @@
 import Model.Game;
 
 import View.View;
+import View.MessageView;
 
 public class ConnectFour {
     private final View view;
@@ -15,6 +16,7 @@ public class ConnectFour {
             this.view.start();
             this.view.play();
         } while (this.view.playAgain());
+        MessageView.GOODBYE.writeln();
     }
 
     public static void main(String[] args) {

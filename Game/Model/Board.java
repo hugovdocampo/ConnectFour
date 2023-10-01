@@ -1,5 +1,7 @@
 package Model;
 
+import View.MessageView;
+
 public class Board {
 
     public static final int ROWS = 6;
@@ -50,7 +52,11 @@ public class Board {
     }
 
     public boolean isValidColumn(int column) {
-        return column >= 0 && column < COLUMNS && board[ROWS - 1][column].equals(Colour.EMPTY);
+        boolean check = column >= 0 && column < COLUMNS && board[ROWS - 1][column].equals(Colour.EMPTY);
+        if (!check) {
+            MessageView.INVALID_COLUMN.writeln();
+        }
+        return check;
     }
 
     public boolean isBoardFull() {
