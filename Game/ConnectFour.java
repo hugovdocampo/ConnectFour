@@ -1,24 +1,24 @@
-import Model.Board;
 import Model.Game;
 
+import View.View;
+
 public class ConnectFour {
-    private Game game;
+    private final View view;
 
     public ConnectFour() {
-
+        Game game = new Game();
+        this.view = new View(game);
     }
-
 
     public void play() {
         do {
-            game = new Game();
-            game.play();
-        } while ()
+            this.view.start();
+            this.view.play();
+        } while (this.view.playAgain());
     }
-
 
     public static void main(String[] args) {
-        ConnectFour conecta4 = new ConnectFour();
-        conecta4.play();
+        new ConnectFour().play();
     }
+
 }

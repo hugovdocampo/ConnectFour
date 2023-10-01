@@ -8,6 +8,9 @@ public class Line {
         Coordinate currentCoord = startingCoord;
 
         for (int i = 0; i < REQUIRED_IN_A_ROW; i++) {
+            if (!board.isWithinBounds(currentCoord)) {
+                return false;
+            }
             Colour colourAtCoord = board.getColourAt(currentCoord);
 
             if (!colourAtCoord.equals(currentColour)) {
@@ -18,4 +21,5 @@ public class Line {
         }
         return true;
     }
+
 }

@@ -20,20 +20,13 @@ public enum MessageView {
     WINNER("Congratulations! You won!"),
     INVALID_PIECE_SELECTION("Invalid piece selection. Please enter X or O."),
     DRAW("It's a draw!"),
+    PLAY_AGAIN("Do you want to play again (Y | N)"),
     GOODBYE("Thanks for playing! Goodbye!");
 
     private final String message;
 
     MessageView(String message) {
         this.message = message;
-    }
-
-    public String getMessage() {
-        return this.message;
-    }
-
-    public void write() {
-        System.out.print(this.message);
     }
 
     public void writeln() {

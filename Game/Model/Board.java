@@ -2,43 +2,69 @@ package Model;
 
 public class Board {
 
-    private static final int WIDTH = 6;
-    private static final int HEIGHT = 7;
+    public static final int ROWS = 6;
+    public static final int COLUMNS = 7;
     private final Colour[][] board;
+    private Coordinate lastCoordinate;
 
     public Board() {
-        this.board = new Colour[WIDTH][HEIGHT];
+        this.board = new Colour[ROWS][COLUMNS];
+        this.initialize();
+    }
+
+    public void initialize() {
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLUMNS; j++) {
+                board[i][j] = Colour.EMPTY;
+            }
+        }
     }
 
     public Colour getColourAt(Coordinate coord) {
-        if (coord.getX() < 0 || coord.getX() >= WIDTH || coord.getY() < 0 || coord.getY() >= HEIGHT) {
-            return Colour.EMPTY;
-        }
         return board[coord.getX()][coord.getY()];
     }
 
-    public boolean dropToken(int column, Colour colour) {
-        if (column < 0 || column >= HEIGHT) {
-            return false;
-        }
+    public void dropToken(int column, Colour colour) {
+        int row = 0;
+        boolean tokenDropped = false;
 
-        for (int row = WIDTH - 1; row >= 0; row--) {
+        do {
             if (board[row][column].equals(Colour.EMPTY)) {
                 board[row][column] = colour;
+                lastCoordinate = new Coordinate(row, column);
+                tokenDropped = true;
+            }
+            row++;
+        } while (!tokenDropped);
+    }
+
+
+    public boolean checkVictory() {
+        Line lineChecker = new Line();
+        for (Direction direction : Direction.values()) {
+            if (lineChecker.hasFourInARow(this, lastCoordinate, direction)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean isValidColumn(int column) {
+        return column >= 0 && column < COLUMNS && board[ROWS - 1][column].equals(Colour.EMPTY);
+    }
+
+    public boolean isBoardFull() {
+        for (int column = 0; column < COLUMNS; column++) {
+            if (board[ROWS - 1][column].equals(Colour.EMPTY)) {
+                return false;
             }
         }
         return true;
     }
 
-    public boolean existWinner(){
-        return true;
+    public boolean isWithinBounds(Coordinate coord) {
+        return coord.getX() >= 0 && coord.getX() < ROWS &&
+                coord.getY() >= 0 && coord.getY() < COLUMNS;
     }
 
-    public boolean isCompleted(){
-        return true;
-    }
-
-    public boolean checkWinner(Colour colour, Coordinate coordinate) {
-        return true;
-    }
 }

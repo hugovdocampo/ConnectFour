@@ -1,19 +1,19 @@
 package Model;
 
 public class Player {
-    private String name;
     private Colour gameColour;
+    private Board board;
 
-    public Player(String name, Colour gamePiece) {
-        this.name = name;
+    public Player(Colour gamePiece, Board board) {
         this.gameColour = gamePiece;
-    }
-
-    public String getName() {
-        return name;
+        this.board = board;
     }
 
     public Colour getGamePiece() {
         return gameColour;
+    }
+
+    public void dropToken(int column) {
+        this.board.dropToken(column, this.gameColour);
     }
 }
