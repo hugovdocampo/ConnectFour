@@ -1,5 +1,7 @@
 package Model;
 
+import View.Error;
+
 public class Game {
 
     private Board board;
